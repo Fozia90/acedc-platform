@@ -17,7 +17,7 @@ export default function Confidentialite() {
               Politique de confidentialité
             </h1>
             <p className="text-lg text-white/90">
-              Dernière mise à jour : {new Date().toLocaleDateString('fr-FR')}
+              Dernière mise à jour : 10 octobre 2026
             </p>
           </div>
         </section>
