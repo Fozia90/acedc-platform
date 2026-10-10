@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+/* ============================================
+   THÈME ACEDC - Tailwind v4
+   ============================================ */
+@theme {
+  /* Vert ACEDC */
+  --color-acedc-green-50: #e8f5e9;
+  --color-acedc-green-100: #c8e6c9;
+  --color-acedc-green-200: #a5d6a7;
+  --color-acedc-green-300: #81c784;
+  --color-acedc-green-400: #66bb6a;
+  --color-acedc-green-500: #4caf50;
+  --color-acedc-green-600: #2e7d32;
+  --color-acedc-green-700: #1b5e20;
+  --color-acedc-green-800: #145a1c;
+  --color-acedc-green-900: #0d3d12;
+
+  /* Or ACEDC */
+  --color-acedc-gold-300: #ffd54f;
+  --color-acedc-gold-400: #ffca28;
+  --color-acedc-gold-500: #f9a825;
+  --color-acedc-gold-600: #f57f17;
+  --color-acedc-gold-700: #e65100;
+
+  /* Jaune ACEDC */
+  --color-acedc-yellow-300: #fff176;
+  --color-acedc-yellow-400: #ffee58;
+  --color-acedc-yellow-500: #fdd835;
+  --color-acedc-yellow-600: #fbc02d;
+
+  /* Bleu ACEDC */
+  --color-acedc-blue-400: #42a5f5;
+  --color-acedc-blue-500: #2196f3;
+  --color-acedc-blue-600: #1976d2;
+
+  /* Rouge */
+  --color-acedc-red-500: #e74c3c;
+}
+
+/* Styles de base */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e7d32;
+  border-radius: 5px;
+}
