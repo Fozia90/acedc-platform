@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# APK / binaires mobiles (utiliser GitHub Releases)
+*.apk
+*.aab
+*.ipa
+acedc-web/public/*.apk

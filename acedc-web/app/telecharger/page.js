@@ -6,6 +6,8 @@ export const metadata = {
   title: 'Télécharger',
 };
 
+const APK_URL = '/acedc.apk'; // ← fichier placé dans /public/acedc.apk
+
 export default function Telecharger() {
   return (
     <>
@@ -23,9 +25,9 @@ export default function Telecharger() {
 
             {/* Boutons de téléchargement */}
             <div className="flex flex-wrap justify-center gap-4">
-              {ACEDC.app.apkUrl ? (
+              {APK_URL ? (
                 <a
-                  href={ACEDC.app.apkUrl}
+                  href={APK_URL}
                   className="btn-gold text-lg"
                   download
                 >
