@@ -6,7 +6,8 @@ export const metadata = {
   title: 'Télécharger',
 };
 
-const APK_URL = '/acedc.apk'; // ← fichier placé dans /public/acedc.apk
+const APK_URL =
+  'https://github.com/Fozia90/acedc-platform/releases/download/v1.0.0/acedc.apk';
 
 export default function Telecharger() {
   return (
